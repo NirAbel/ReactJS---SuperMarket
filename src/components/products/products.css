@@ -1,0 +1,34 @@
+.products > p{
+    font-size: xx-large;
+    color: black;
+    background-color: lightblue;
+}
+
+.products > table{
+    margin: auto;
+}
+
+.products > table, .products th, .products td{
+    border: 1px solid blue;
+}
+
+.products td:first-child{
+    text-align: left;
+    padding: 10px;
+}
+
+.products tr:nth-child(even){
+    background-color: lightblue;
+}
+
+.products tr:nth-child(odd){
+    background-color: lightskyblue;
+}
+
+.products{
+    height: 95%;
+    overflow: auto;
+}
+
+
+

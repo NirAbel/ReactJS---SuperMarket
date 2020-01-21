@@ -1,0 +1,25 @@
+.layout{
+    height: 100%;
+    box-sizing: border-box; /* control width & height */
+    display: grid;
+    grid-template-rows: 10% 85% 5%; /* 3 rows*/
+    grid-template-columns: repeat(12, 1fr); /* 12 columns*/
+
+}
+
+.layout > header, .layout > footer {
+    grid-column: span 12; /* span over all 12 columns*/
+}
+
+.layout > aside{
+    grid-column: span 1;
+}
+
+.layout > main{
+    grid-column: span 11;
+}
+
+.layout, .layout > *{
+    border: 1px solid black; /* border to each layout*/
+} 
+

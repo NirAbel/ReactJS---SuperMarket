@@ -1,0 +1,12 @@
+.menu > a{
+    color: blanchedalmond;
+    margin-top: 30%;
+    display: block;
+}
+
+.menu > .active {
+    color: black;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
